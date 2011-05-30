@@ -29,8 +29,6 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 require 'tempfile'
 
-require 'pp'
-
 if ARGV.size != 1 then
 	STDERR.puts "usage: plot.rb <filename>"
 	exit
